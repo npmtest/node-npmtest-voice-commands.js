@@ -1,6 +1,6 @@
 # npmtest-voice-commands.js
 
-#### test coverage for  [voice-commands.js (v1.0.0)](http://jimmybyrum.github.io/voice-commands.js/)  [![npm package](https://img.shields.io/npm/v/npmtest-voice-commands.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-voice-commands.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-voice-commands.js.svg)](https://travis-ci.org/npmtest/node-npmtest-voice-commands.js)
+#### basic test coverage for  [voice-commands.js (v1.0.0)](http://jimmybyrum.github.io/voice-commands.js/)  [![npm package](https://img.shields.io/npm/v/npmtest-voice-commands.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-voice-commands.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-voice-commands.js.svg)](https://travis-ci.org/npmtest/node-npmtest-voice-commands.js)
 
 #### Simple wrapper for Javascript Speech-to-text to add voice commands.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-voice-commands.js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-voice-commands.js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-voice-commands.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-voice-commands.js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-voice-commands.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-voice-commands.js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-voice-commands.js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-voice-commands.js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-voice-commands.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-voice-commands.js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-voice-commands.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-voice-commands.js/build/coverage.html/index.html)
 
@@ -77,7 +77,8 @@
     "scripts": {
         "test": "npm test"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
